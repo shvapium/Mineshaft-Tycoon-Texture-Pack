@@ -1,0 +1,130 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "bold": true,
+        "color": "gold",
+        "text": "T1 Fortune Potion "
+       },
+       {
+        "bold": true,
+        "color": "dark_aqua",
+        "text": "(0:30)"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§6§lT1 Fortune Potion §3§l(0:30)"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/potion_t1"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "bold": true,
+        "color": "gold",
+        "text": "T2 Fortune Potion "
+       },
+       {
+        "bold": true,
+        "color": "dark_aqua",
+        "text": "(0:45)"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§6§lT2 Fortune Potion §3§l(0:45)"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/potion_t2"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "bold": true,
+        "color": "gold",
+        "text": "T3 Fortune Potion "
+       },
+       {
+        "bold": true,
+        "color": "dark_aqua",
+        "text": "(1:00)"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§6§lT3 Fortune Potion §3§l(1:00)"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/potion_t3"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "bold": true,
+        "color": "gold",
+        "text": "T4 Fortune Potion "
+       },
+       {
+        "bold": true,
+        "color": "dark_aqua",
+        "text": "(1:15)"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§6§lT4 Fortune Potion §3§l(1:15)"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/potion_t4"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Regolith Soil"
+     },
+     "§6Regolith Soil"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/mat_regolith"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:special",
+   "base": "minecraft:item/template_skull",
+   "model": {
+    "type": "minecraft:player_head"
+   }
+  }
+ }
+}

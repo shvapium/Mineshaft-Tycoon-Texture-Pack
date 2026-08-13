@@ -1,0 +1,55 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "gray",
+      "italic": false,
+      "text": "Half-Broken Pickaxe"
+     },
+     "§7Half-Broken Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_wood_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gray",
+      "italic": false,
+      "text": "Weak Pickaxe"
+     },
+     "§7Weak Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_wood_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gray",
+      "italic": false,
+      "text": "Fragile Pickaxe"
+     },
+     "§7Fragile Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_wood_2"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/wooden_pickaxe"
+  }
+ }
+}

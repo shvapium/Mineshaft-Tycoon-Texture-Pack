@@ -1,0 +1,115 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "dark_purple",
+      "italic": false,
+      "text": "Shiny Pickaxe"
+     },
+     "§5Shiny Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_dia_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "dark_purple",
+      "italic": false,
+      "text": "Refined Pickaxe"
+     },
+     "§5Refined Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_dia_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "dark_purple",
+      "italic": false,
+      "text": "Pure Pickaxe"
+     },
+     "§5Pure Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_dia_2"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "dark_purple",
+      "italic": false,
+      "text": "Radiant Pickaxe"
+     },
+     "§5Radiant Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_dia_3"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "color": "dark_purple",
+        "text": "Radiant Pickaxe "
+       },
+       {
+        "color": "light_purple",
+        "text": "[✪]"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§5Radiant Pickaxe §d[✪]"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_dia_s1"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "color": "dark_purple",
+        "text": "Radiant Pickaxe "
+       },
+       {
+        "color": "light_purple",
+        "text": "[✪✪]"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§5Radiant Pickaxe §d[✪✪]"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_dia_s2"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/diamond_pickaxe"
+  }
+ }
+}

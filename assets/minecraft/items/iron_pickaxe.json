@@ -1,0 +1,845 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Solid Pickaxe"
+     },
+     "§6Solid Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_iron_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Sturdy Pickaxe"
+     },
+     "§6Sturdy Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_iron_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Tough Pickaxe"
+     },
+     "§6Tough Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_iron_2"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Glacial Fang Pickaxe"
+     },
+     "§bGlacial Fang Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Frostpiercer Pickaxe"
+     },
+     "§bFrostpiercer Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Shivercore Pickaxe"
+     },
+     "§bShivercore Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_2"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Permafrost Pickaxe"
+     },
+     "§bPermafrost Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_3"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Cryoheart Pickaxe"
+     },
+     "§bCryoheart Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_4"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Blizzardborn Pickaxe"
+     },
+     "§bBlizzardborn Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_5"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Subzero Cryoclasm Pickaxe"
+     },
+     "§bSubzero Cryoclasm Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_6"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Deepfreeze Pickaxe"
+     },
+     "§bDeepfreeze Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_7"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Frostgrinder Pickaxe"
+     },
+     "§bFrostgrinder Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_8"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Icebane Pickaxe"
+     },
+     "§bIcebane Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_9"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Blizzard Bane Pickaxe"
+     },
+     "§bBlizzard Bane Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_10"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Frostfang Pickaxe"
+     },
+     "§bFrostfang Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_11"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Shiversplit Pickaxe"
+     },
+     "§bShiversplit Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t4_12"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Icehowl Pickaxe"
+     },
+     "§bIcehowl Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:select",
+     "property": "minecraft:component",
+     "component": "minecraft:lore",
+     "cases": [
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Tools"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "gray",
+            "text": "Component Slot: "
+           },
+           {
+            "bold": true,
+            "color": "white",
+            "text": "Efficiency Core"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "gold",
+            "text": "+13,040 Fortune "
+           },
+           {
+            "color": "white",
+            "text": "/ Block"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+13,040 Xp "
+           },
+           {
+            "color": "white",
+            "text": "/ Block"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "bold": true,
+          "color": "aqua",
+          "italic": false,
+          "text": "Divine Pickaxe"
+         },
+         "",
+         {
+          "color": "red",
+          "italic": false,
+          "text": "Requirement:"
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "aqua",
+            "text": "Mountain"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "aqua",
+            "text": "5000 Ascensions"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "dark_green",
+            "text": "50000 Trust Levels"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ],
+        [
+         "§8Tools",
+         "",
+         "§7Component Slot: §f§lEfficiency Core",
+         "",
+         "§6+13,040 Fortune §f/ Block",
+         "§b+13,040 Xp §f/ Block",
+         "",
+         "§b§lDivine Pickaxe",
+         "",
+         "§cRequirement:",
+         "§e➥ §bMountain",
+         "§e➥ §b5000 Ascensions",
+         "§e➥ §250000 Trust Levels"
+        ],
+        [
+         "§7§8Tools",
+         "§7",
+         "§7§7§7§7§7Component Slot: §f§lEfficiency Core",
+         "§7",
+         "§7§7§7§7§7§7§7§7§7§7§6+13,040 Fortune §f/ Block",
+         "§7§7§7§7§7§7§7§7§7§7§b+13,040 Xp §f/ Block",
+         "§7",
+         "§7§7§b§lDivine Pickaxe",
+         "§7",
+         "§7§cRequirement:",
+         "§7§7§e➥ §bMountain",
+         "§7§e➥ §b5000 Ascensions",
+         "§7§7§e➥ §250000 Trust Levels"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/t4_icehowl_eff"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Tools"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "gray",
+            "text": "Component Slot: "
+           },
+           {
+            "color": "red",
+            "text": "Empty"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "gold",
+            "text": "+13,040 Fortune "
+           },
+           {
+            "color": "white",
+            "text": "/ Block"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+13,040 Xp "
+           },
+           {
+            "color": "white",
+            "text": "/ Block"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "bold": true,
+          "color": "aqua",
+          "italic": false,
+          "text": "Divine Pickaxe"
+         },
+         "",
+         {
+          "color": "red",
+          "italic": false,
+          "text": "Requirement:"
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "aqua",
+            "text": "Mountain"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "aqua",
+            "text": "4000 Ascensions"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "dark_green",
+            "text": "50000 Trust Levels"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ],
+        [
+         "§8Tools",
+         "",
+         "§7Component Slot: §cEmpty",
+         "",
+         "§6+13,040 Fortune §f/ Block",
+         "§b+13,040 Xp §f/ Block",
+         "",
+         "§b§lDivine Pickaxe",
+         "",
+         "§cRequirement:",
+         "§e➥ §bMountain",
+         "§e➥ §b4000 Ascensions",
+         "§e➥ §250000 Trust Levels"
+        ],
+        [
+         "§7§8Tools",
+         "§7",
+         "§7§7§7§7Component Slot: §cEmpty",
+         "§7",
+         "§7§7§7§7§7§7§7§7§7§7§6+13,040 Fortune §f/ Block",
+         "§7§7§7§7§7§7§7§7§7§7§b+13,040 Xp §f/ Block",
+         "§7",
+         "§7§7§b§lDivine Pickaxe",
+         "§7",
+         "§7§cRequirement:",
+         "§7§7§e➥ §bMountain",
+         "§7§7§7§7§7§7§7§7§7§e➥ §b4000 Ascensions",
+         "§7§7§e➥ §250000 Trust Levels"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/t4_icehowl_empty"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Tools"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "gray",
+            "text": "Component Slot: "
+           },
+           {
+            "bold": true,
+            "color": "dark_green",
+            "text": "Fortune Core"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "gold",
+            "text": "+18,040 Fortune "
+           },
+           {
+            "color": "gray",
+            "text": "(+5,000) "
+           },
+           {
+            "color": "white",
+            "text": "/ Block"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+13,040 Xp "
+           },
+           {
+            "color": "white",
+            "text": "/ Block"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "bold": true,
+          "color": "aqua",
+          "italic": false,
+          "text": "Divine Pickaxe"
+         },
+         "",
+         {
+          "color": "red",
+          "italic": false,
+          "text": "Requirement:"
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "aqua",
+            "text": "Mountain"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "aqua",
+            "text": "5000 Ascensions"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "dark_green",
+            "text": "50000 Trust Levels"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ],
+        [
+         "§8Tools",
+         "",
+         "§7Component Slot: §2§lFortune Core",
+         "",
+         "§6+18,040 Fortune §7(+5,000) §f/ Block",
+         "§b+13,040 Xp §f/ Block",
+         "",
+         "§b§lDivine Pickaxe",
+         "",
+         "§cRequirement:",
+         "§e➥ §bMountain",
+         "§e➥ §b5000 Ascensions",
+         "§e➥ §250000 Trust Levels"
+        ],
+        [
+         "§7§8Tools",
+         "§7",
+         "§7§7§7§7§7Component Slot: §2§lFortune Core",
+         "§7",
+         "§7§6+18,040 Fortune §7(+5,000) §f/ Block",
+         "§7§7§7§7§7§7§7§7§7§7§b+13,040 Xp §f/ Block",
+         "§7",
+         "§7§7§b§lDivine Pickaxe",
+         "§7",
+         "§7§cRequirement:",
+         "§7§7§e➥ §bMountain",
+         "§7§e➥ §b5000 Ascensions",
+         "§7§7§e➥ §250000 Trust Levels"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/t4_icehowl_fortune"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Tools"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "gray",
+            "text": "Component Slot: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "Xp Core"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "gold",
+            "text": "+13,040 Fortune "
+           },
+           {
+            "color": "white",
+            "text": "/ Block"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+18,040 Xp "
+           },
+           {
+            "color": "gray",
+            "text": "(+5,000) "
+           },
+           {
+            "color": "white",
+            "text": "/ Block"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "bold": true,
+          "color": "aqua",
+          "italic": false,
+          "text": "Divine Pickaxe"
+         },
+         "",
+         {
+          "color": "red",
+          "italic": false,
+          "text": "Requirement:"
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "aqua",
+            "text": "Mountain"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "aqua",
+            "text": "5000 Ascensions"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "yellow",
+            "text": "➥ "
+           },
+           {
+            "color": "dark_green",
+            "text": "50000 Trust Levels"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ],
+        [
+         "§8Tools",
+         "",
+         "§7Component Slot: §b§lXp Core",
+         "",
+         "§6+13,040 Fortune §f/ Block",
+         "§b+18,040 Xp §7(+5,000) §f/ Block",
+         "",
+         "§b§lDivine Pickaxe",
+         "",
+         "§cRequirement:",
+         "§e➥ §bMountain",
+         "§e➥ §b5000 Ascensions",
+         "§e➥ §250000 Trust Levels"
+        ],
+        [
+         "§7§8Tools",
+         "§7",
+         "§7§7§7§7§7Component Slot: §b§lXp Core",
+         "§7",
+         "§7§7§7§7§7§7§7§7§7§7§6+13,040 Fortune §f/ Block",
+         "§7§7§b+18,040 Xp §7(+5,000) §f/ Block",
+         "§7",
+         "§7§7§b§lDivine Pickaxe",
+         "§7",
+         "§7§cRequirement:",
+         "§7§7§e➥ §bMountain",
+         "§7§e➥ §b5000 Ascensions",
+         "§7§7§e➥ §250000 Trust Levels"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/t4_icehowl_xp"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "mst:item/t4_icehowl_empty"
+     }
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/iron_pickaxe"
+  }
+ }
+}

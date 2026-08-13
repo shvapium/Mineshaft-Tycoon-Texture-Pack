@@ -1,0 +1,223 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Icehowl Drill"
+     },
+     "§bIcehowl Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_earth"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gray",
+      "italic": false,
+      "text": "Crater Drill"
+     },
+     "§7Crater Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_moon_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gray",
+      "italic": false,
+      "text": "Satellite Drill"
+     },
+     "§7Satellite Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_moon_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gray",
+      "italic": false,
+      "text": "Serene Drill"
+     },
+     "§7Serene Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_moon_2"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gray",
+      "italic": false,
+      "text": "Lunar Drill"
+     },
+     "§7Lunar Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_moon_3"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Dust Drill"
+     },
+     "§6Dust Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_mars_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Cold Drill"
+     },
+     "§6Cold Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_mars_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Arid Drill"
+     },
+     "§6Arid Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_mars_2"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Planetary Drill"
+     },
+     "§6Planetary Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_mars_3"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "gold",
+      "italic": false,
+      "text": "Martian Drill"
+     },
+     "§6Martian Drill"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_mars_4"
+    }
+   },
+   {
+    "when": [
+     "§eStar Drill",
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Star Drill"
+     }
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_sun_0"
+    }
+   },
+   {
+    "when": [
+     "§eSolar Drill",
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Solar Drill"
+     }
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_sun_1"
+    }
+   },
+   {
+    "when": [
+     "§eCorona Drill",
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Corona Drill"
+     }
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_sun_2"
+    }
+   },
+   {
+    "when": [
+     "§eNova Drill",
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Nova Drill"
+     }
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_sun_3"
+    }
+   },
+   {
+    "when": [
+     "§eFusion Drill",
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Fusion Drill"
+     }
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/drill_fusion"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/prismarine_shard"
+  }
+ }
+}

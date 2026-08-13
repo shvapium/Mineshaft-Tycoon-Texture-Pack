@@ -1,0 +1,27 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "blue",
+      "italic": false,
+      "text": "Brecca Powder"
+     },
+     "§9Brecca Powder"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/mat_brecca"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/sugar"
+  }
+ }
+}

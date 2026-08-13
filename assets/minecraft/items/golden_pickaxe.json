@@ -1,0 +1,185 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Sand Pickaxe"
+     },
+     "§eSand Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Dune Pickaxe"
+     },
+     "§eDune Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Scorched Pickaxe"
+     },
+     "§eScorched Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_2"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Sunforged Pickaxe"
+     },
+     "§eSunforged Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_3"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Desertborn Pickaxe"
+     },
+     "§eDesertborn Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_4"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Sandsoul Pickaxe"
+     },
+     "§eSandsoul Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_5"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Mirage Pickaxe"
+     },
+     "§eMirage Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_6"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Sandstorm Pickaxe"
+     },
+     "§eSandstorm Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_7"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Pharaoh's Pickaxe"
+     },
+     "§ePharaoh's Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_8"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "color": "yellow",
+        "text": "Pharaoh's Pickaxe "
+       },
+       {
+        "color": "gold",
+        "text": "[✪]"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§ePharaoh's Pickaxe §6[✪]"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_s1"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "color": "yellow",
+        "text": "Pharaoh's Pickaxe "
+       },
+       {
+        "color": "gold",
+        "text": "[✪✪]"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§ePharaoh's Pickaxe §6[✪✪]"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t2_s2"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/golden_pickaxe"
+  }
+ }
+}

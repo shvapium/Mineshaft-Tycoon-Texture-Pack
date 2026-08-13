@@ -1,0 +1,188 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     "§eMystic Bow",
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Mystic Bow"
+     }
+    ],
+    "model": {
+     "type": "minecraft:select",
+     "property": "minecraft:component",
+     "component": "minecraft:lore",
+     "cases": [
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Blindness",
+         "§8» §7Shrouds the target in darkness, §eblinding §7them.",
+         "",
+         "§f§lGodly Bow"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/mbow_blindness"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Poison",
+         "§8» §7Corrupts the target's body, §epoisoning §7them.",
+         "",
+         "§f§lGodly Bow"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/mbow_poison"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Reaper",
+         "§8» §7Converts leftover life force into §eadditional souls§7.",
+         "",
+         "§f§lGodly Bow"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/mbow_reaper"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Rush",
+         "§8» §7Drains the target's youth, §equickening §7your steps.",
+         "",
+         "§f§lGodly Bow"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/mbow_rush"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Slowness",
+         "§8» §7Hampers the target's movement, §eslowing §7them down.",
+         "",
+         "§f§lGodly Bow"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/mbow_slowness"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Weakness",
+         "§8» §7Saps the target's strength, leaving them §eweakened§7.",
+         "",
+         "§f§lGodly Bow"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/mbow_weakness"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:condition",
+      "on_false": {
+       "type": "minecraft:model",
+       "model": "minecraft:item/bow"
+      },
+      "on_true": {
+       "type": "minecraft:range_dispatch",
+       "entries": [
+        {
+         "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bow_pulling_1"
+         },
+         "threshold": 0.65
+        },
+        {
+         "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bow_pulling_2"
+         },
+         "threshold": 0.9
+        }
+       ],
+       "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bow_pulling_0"
+       },
+       "property": "minecraft:use_duration",
+       "scale": 0.05
+      },
+      "property": "minecraft:using_item"
+     }
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:condition",
+   "on_false": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/bow"
+   },
+   "on_true": {
+    "type": "minecraft:range_dispatch",
+    "entries": [
+     {
+      "model": {
+       "type": "minecraft:model",
+       "model": "minecraft:item/bow_pulling_1"
+      },
+      "threshold": 0.65
+     },
+     {
+      "model": {
+       "type": "minecraft:model",
+       "model": "minecraft:item/bow_pulling_2"
+      },
+      "threshold": 0.9
+     }
+    ],
+    "fallback": {
+     "type": "minecraft:model",
+     "model": "minecraft:item/bow_pulling_0"
+    },
+    "property": "minecraft:use_duration",
+    "scale": 0.05
+   },
+   "property": "minecraft:using_item"
+  }
+ }
+}

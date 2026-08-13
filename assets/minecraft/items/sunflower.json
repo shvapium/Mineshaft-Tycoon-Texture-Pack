@@ -1,0 +1,27 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     "§eSun Fragment",
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Sun Fragment"
+     }
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/mat_sunfrag"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/sunflower"
+  }
+ }
+}

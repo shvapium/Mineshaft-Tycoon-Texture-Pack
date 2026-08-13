@@ -1,0 +1,27 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     "§4Fiber",
+     {
+      "color": "dark_red",
+      "italic": false,
+      "text": "Fiber"
+     }
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/mat_fiber"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/nether_wart"
+  }
+ }
+}

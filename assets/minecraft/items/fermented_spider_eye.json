@@ -1,0 +1,27 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "blue",
+      "italic": false,
+      "text": "Rhodnite"
+     },
+     "§9Rhodnite"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/mat_rhodnite"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/fermented_spider_eye"
+  }
+ }
+}

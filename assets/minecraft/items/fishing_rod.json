@@ -1,0 +1,2146 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "dark_aqua",
+      "italic": false,
+      "text": "Icy Rod"
+     },
+     "§3Icy Rod"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/rod_icy"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Snow Rod"
+     },
+     "§bSnow Rod"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/rod_snow"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "aqua",
+      "italic": false,
+      "text": "Frozen Rod"
+     },
+     "§bFrozen Rod"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/rod_frozen"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "blue",
+      "italic": false,
+      "text": "Permafrost Rod"
+     },
+     "§9Permafrost Rod"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/rod_permafrost"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "dark_aqua",
+      "italic": false,
+      "text": "Iceberg Rod"
+     },
+     "§3Iceberg Rod"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/rod_iceberg"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "blue",
+      "italic": false,
+      "text": "Blackice Rod"
+     },
+     "§9Blackice Rod"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/rod_blackice"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "dark_aqua",
+      "italic": false,
+      "text": "Rod Of The Titans"
+     },
+     {
+      "color": "#1957FF",
+      "italic": false,
+      "text": "Rod Of The Titans"
+     }
+    ],
+    "model": {
+     "type": "minecraft:select",
+     "property": "minecraft:component",
+     "component": "minecraft:lore",
+     "cases": [
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_ang"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_ang_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_ang_spk"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_ang_spk_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_base"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_fra"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_fra_ang"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_fra_ang_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_fra_ang_spk"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_fra_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_fra_spk"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_fra_spk_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_ang"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_ang_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_ang_spk"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_fra"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Angler"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_fra_ang"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_fra_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Frail"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_fra_spk"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_spk"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Piscary"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_pis_spk_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_shp"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_spk"
+       }
+      },
+      {
+       "when": [
+        [
+         {
+          "color": "dark_gray",
+          "italic": false,
+          "text": "Rod"
+         },
+         "",
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Spiked Hook"
+         },
+         {
+          "color": "gray",
+          "italic": false,
+          "text": "Sharpened"
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "dark_aqua",
+            "text": "+12 SCC "
+           },
+           {
+            "color": "white",
+            "text": "/ Hook"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "text": "+70 Fishing Speed "
+           },
+           {
+            "color": "white",
+            "text": "/ Cast"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         },
+         "",
+         {
+          "extra": [
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": "3: "
+           },
+           {
+            "bold": true,
+            "color": "aqua",
+            "text": "ULTIMATE ROD "
+           },
+           {
+            "color": "aqua",
+            "obfuscated": true,
+            "text": ":3"
+           }
+          ],
+          "italic": false,
+          "text": ""
+         }
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/titan_spk_shp"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "mst:item/titan_base"
+     }
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:condition",
+   "on_false": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/fishing_rod"
+   },
+   "on_true": {
+    "type": "minecraft:model",
+    "model": "minecraft:item/fishing_rod_cast"
+   },
+   "property": "minecraft:fishing_rod/cast"
+  }
+ }
+}

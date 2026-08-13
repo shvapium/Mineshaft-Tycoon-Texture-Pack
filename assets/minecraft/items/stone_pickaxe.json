@@ -1,0 +1,297 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "green",
+      "italic": false,
+      "text": "Starter Pickaxe"
+     },
+     "§aStarter Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_stone_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "green",
+      "italic": false,
+      "text": "Novice Pickaxe"
+     },
+     "§aNovice Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_stone_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "green",
+      "italic": false,
+      "text": "Dull Pickaxe"
+     },
+     "§aDull Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t1_stone_2"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Lava Pickaxe"
+     },
+     "§cLava Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_0"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Molten Pickaxe"
+     },
+     "§cMolten Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_1"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Hellfire Pickaxe"
+     },
+     "§cHellfire Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_2"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Magma Mauler Pickaxe"
+     },
+     "§cMagma Mauler Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_3"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Blazebreaker Pickaxe"
+     },
+     "§cBlazebreaker Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_4"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Ashen Axe Pickaxe"
+     },
+     "§cAshen Axe Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_5"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Netherfang Pickaxe"
+     },
+     "§cNetherfang Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_6"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Flarestrike Pickaxe"
+     },
+     "§cFlarestrike Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_7"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Brimstone Blade Pickaxe"
+     },
+     "§cBrimstone Blade Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_8"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Forged Lava Pickaxe"
+     },
+     "§cForged Lava Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_9"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Emberforge Pickaxe"
+     },
+     "§cEmberforge Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_10"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Cinderstrike Pickaxe"
+     },
+     "§cCinderstrike Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_11"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Netherite Nightmare Pickaxe"
+     },
+     "§cNetherite Nightmare Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_12"
+    }
+   },
+   {
+    "when": [
+     {
+      "color": "red",
+      "italic": false,
+      "text": "Volcanic Bite Pickaxe"
+     },
+     "§cVolcanic Bite Pickaxe"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_13"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "color": "red",
+        "text": "Volcanic Bite Pickaxe "
+       },
+       {
+        "color": "dark_red",
+        "text": "[✪]"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§cVolcanic Bite Pickaxe §4[✪]"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_s1"
+    }
+   },
+   {
+    "when": [
+     {
+      "extra": [
+       {
+        "color": "red",
+        "text": "Volcanic Bite Pickaxe "
+       },
+       {
+        "color": "dark_red",
+        "text": "[✪✪]"
+       }
+      ],
+      "italic": false,
+      "text": ""
+     },
+     "§cVolcanic Bite Pickaxe §4[✪✪]"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/t3_s2"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/stone_pickaxe"
+  }
+ }
+}

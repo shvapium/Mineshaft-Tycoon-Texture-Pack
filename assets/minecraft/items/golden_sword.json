@@ -1,0 +1,149 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     "§eMystic Sword",
+     {
+      "color": "yellow",
+      "italic": false,
+      "text": "Mystic Sword"
+     }
+    ],
+    "model": {
+     "type": "minecraft:select",
+     "property": "minecraft:component",
+     "component": "minecraft:lore",
+     "cases": [
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Berserk",
+         "§8» §7Puts you into a short §efrenzy§7.",
+         "§7 §0LEAVE NOTHING BEHIND",
+         "§9Sharpness III",
+         "§7Grants extra damage!",
+         "",
+         "§f§lGodly Sword"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/msword_berserk"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Reaper",
+         "§8» §7Converts leftover life force into §eadditional souls§7.",
+         "",
+         "§9Sharpness III",
+         "§7Grants extra damage!",
+         "",
+         "§f§lGodly Sword"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/msword_reaper"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Reaper II",
+         "§8» §7Converts leftover life force into §eadditional souls§7.",
+         "§8» §7Only works at large amounts!",
+         "",
+         "§9Sharpness III",
+         "§7Grants extra damage!",
+         "",
+         "§f§lGodly Sword"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/msword_reaper_ii"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Turtle Master",
+         "§8» §eHarden§7 your resolve at the cost of speed.",
+         "",
+         "§9Sharpness III",
+         "§7Grants extra damage!",
+         "",
+         "§f§lGodly Sword"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/msword_turtle_master"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Vampiric Bite",
+         "§8» §eReplenishes §7you every few hits.",
+         "",
+         "§9Sharpness III",
+         "§7Grants extra damage!",
+         "",
+         "§f§lGodly Sword"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/msword_vampiric_bite"
+       }
+      },
+      {
+       "when": [
+        [
+         "§8Weapon",
+         "",
+         "§2❏ §9Ability: Vampiric Bite II",
+         "§8» §eReplenishes §7you every §ekill§7.",
+         "",
+         "§9Sharpness III",
+         "§7Grants extra damage!",
+         "",
+         "§f§lGodly Sword"
+        ]
+       ],
+       "model": {
+        "type": "minecraft:model",
+        "model": "mst:item/msword_vampiric_bite_ii"
+       }
+      }
+     ],
+     "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/golden_sword"
+     }
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/golden_sword"
+  }
+ }
+}

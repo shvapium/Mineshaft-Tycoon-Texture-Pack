@@ -1,0 +1,27 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "blue",
+      "italic": false,
+      "text": "Ametrine"
+     },
+     "§9Ametrine"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/mat_ametrine"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/purple_dye"
+  }
+ }
+}

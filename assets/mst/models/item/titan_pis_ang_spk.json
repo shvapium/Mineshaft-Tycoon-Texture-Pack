@@ -1,0 +1,6 @@
+{
+ "parent": "minecraft:item/handheld_rod",
+ "textures": {
+  "layer0": "mst:item/titan_pis_ang_spk"
+ }
+}

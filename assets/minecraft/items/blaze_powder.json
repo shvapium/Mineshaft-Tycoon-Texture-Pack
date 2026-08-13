@@ -1,0 +1,27 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "color": "green",
+      "italic": false,
+      "text": "Amber Fragment"
+     },
+     "§aAmber Fragment"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/mat_amber"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/blaze_powder"
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:component",
+  "component": "minecraft:custom_name",
+  "cases": [
+   {
+    "when": [
+     {
+      "bold": true,
+      "color": "green",
+      "italic": false,
+      "text": "Key Tier 1"
+     },
+     "§a§lKey Tier 1"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/key_t1"
+    }
+   },
+   {
+    "when": [
+     {
+      "bold": true,
+      "color": "gold",
+      "italic": false,
+      "text": "Key Tier 2"
+     },
+     "§6§lKey Tier 2"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/key_t2"
+    }
+   },
+   {
+    "when": [
+     {
+      "bold": true,
+      "color": "red",
+      "italic": false,
+      "text": "Key Tier 3"
+     },
+     "§c§lKey Tier 3"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/key_t3"
+    }
+   },
+   {
+    "when": [
+     {
+      "bold": true,
+      "color": "aqua",
+      "italic": false,
+      "text": "Key Tier 4"
+     },
+     "§b§lKey Tier 4"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/key_t4"
+    }
+   },
+   {
+    "when": [
+     {
+      "bold": true,
+      "color": "dark_gray",
+      "italic": false,
+      "text": "Key Tier 5"
+     },
+     "§8§lKey Tier 5"
+    ],
+    "model": {
+     "type": "minecraft:model",
+     "model": "mst:item/key_t5"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:model",
+   "model": "minecraft:item/tripwire_hook"
+  }
+ }
+}
